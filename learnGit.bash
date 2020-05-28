@@ -13,3 +13,4 @@ git config --global --list # to get all variale in git config
 git --global alias.hist "log --oneline --graph --decorate --all" # to make an alias for a git commande
 git mv license.md license.py # rename file and still in stage area just need to put it in local area
 git rm license.md  # remove file and need just to commit to say to local repo that you remove that file
+git branch # know all branch existe and current branch we you are
