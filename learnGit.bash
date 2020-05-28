@@ -17,3 +17,4 @@ git branch # know all branch existe and current branch we you are
 git checkout -b kirwa # create new branch name kirwa kirwa
 git merge kirwa # put kirwa branch modificationin current branch
 git stash # to stop the current work and commit another file
+git stash list # to know stash list
