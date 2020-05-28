@@ -16,5 +16,10 @@ git rm license.md  # remove file and need just to commit to say to local repo th
 git branch # know all branch existe and current branch we you are
 git checkout -b kirwa # create new branch name kirwa kirwa
 git merge kirwa # put kirwa branch modificationin current branch
+git tag tagName # create a tag for last commit
+git tag -a tagName -m "message" # create a tag for last commit with a message
+git tag -d tagName # delete a tag if the name no specifide it delete all tag
+git tag --list # to know all tag existe
 git stash # to stop the current work and commit another file
 git stash list # to know stash list
+git stash pop # to return stash when we stop in commande git stash
