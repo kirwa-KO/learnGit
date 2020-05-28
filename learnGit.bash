@@ -11,5 +11,5 @@ git checkout -- license.md # to remove the unstaged change maked by git reset he
 git help log # to get help for log option
 git config --global --list # to get all variale in git config
 git --global alias.hist "log --oneline --graph --decorate --all" # to make an alias for a git commande
-git mv license.md license.py # rename file o still in stage area just need to put it in local area
-git rm license.md  # remove file o still in stage area just need to put it in local area
+git mv license.md license.py # rename file and still in stage area just need to put it in local area
+git rm license.md  # remove file and need just to commit to say to local repo that you remove that file
