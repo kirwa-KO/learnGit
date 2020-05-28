@@ -15,3 +15,4 @@ git mv license.md license.py # rename file and still in stage area just need to 
 git rm license.md  # remove file and need just to commit to say to local repo that you remove that file
 git branch # know all branch existe and current branch we you are
 git checkout -b kirwa # create new branch name kirwa kirwa
+git merge kirwa # put kirwa branch modificationin current branch
