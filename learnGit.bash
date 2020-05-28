@@ -16,3 +16,4 @@ git rm license.md  # remove file and need just to commit to say to local repo th
 git branch # know all branch existe and current branch we you are
 git checkout -b kirwa # create new branch name kirwa kirwa
 git merge kirwa # put kirwa branch modificationin current branch
+git stash # to stop the current work and commit another file
