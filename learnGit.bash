@@ -27,3 +27,4 @@ git reset 1b03262 --soft # to return to an old commit and keep change that we ma
 git reset 1b03262 --hard # to return to an old commit and dont keep change that we make in new commit
 git reflog # git all no removed log
 git remote -v # to know what the remote source linked with my local repo
+git push -u origin master # to send your code to remote repo and -u to make a link of local master and remote master
