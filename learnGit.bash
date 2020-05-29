@@ -42,4 +42,7 @@ git tag -a tagName -m "description" 5d51e68 # to create a tag for a specefique c
 git push origin tagName # to push the tagName to github
 git push --tag # to push all tag to github
 git tag -f unstable 6331390 # to move the tag to 6331390 commit
- git push --force origin unstable # to change the tag in remote repo
+git push --force origin unstable # to change the tag in remote repo
+ssh-keygen -t rsa -C "email" # create ssh public and private key
+ssh -T git@github.com # to connect to github with ssh
+git commit -am "comment, close #5" # to commit you change and close the issue id #5
