@@ -39,4 +39,7 @@ git pull origin branchName # to make the branchName modification in master branc
 git push origin :branchName # to remove branchName in remote repo
 git tag tagName kirwa # to create a tag for a last commit in kirwa tag
 git tag -a tagName -m "description" 5d51e68 # to create a tag for a specefique commit
-git push origin tagName # to push the tag to github
+git push origin tagName # to push the tagName to github
+git push --tag # to push all tag to github
+git tag -f unstable 6331390 # to move the tag to 6331390 commit
+ git push --force origin unstable # to change the tag in remote repo
