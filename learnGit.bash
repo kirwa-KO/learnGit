@@ -36,3 +36,7 @@ git merge # merge the change pull it from git fetch
 git show commitID # to see the modification that make in this commit
 git merge branchName # to put the change make in branchName in the master branch
 git pull origin branchName # to make the branchName modification in master branch
+git push origin :branchName # to remove branchName in remote repo
+git tag tagName kirwa # to create a tag for a last commit in kirwa tag
+git tag -a tagName -m "description" 5d51e68 # to create a tag for a specefique commit
+git push origin tagName # to push the tag to github
