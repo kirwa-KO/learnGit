@@ -34,3 +34,5 @@ git remote set-url origin git@github.com:kirwa-KO/initialiseWebSite.git # to cha
 git fetch # pull the change from remote repo but need merge
 git merge # merge the change pull it from git fetch
 git show commitID # to see the modification that make in this commit
+git merge branchName # to put the change make in branchName in the master branch
+git pull origin branchName # to make the branchName modification in master branch
